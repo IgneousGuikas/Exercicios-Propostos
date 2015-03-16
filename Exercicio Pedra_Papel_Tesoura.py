@@ -20,7 +20,7 @@ def computador_win():
     nj = 0
 
 while nc < 3 and nj < 3:
-    for x in range(0, 4):
+    for x in range(4):
         shuffle(lista_armas)
     pc = lista_armas[6]
     print('\nComputador pronto.')
